@@ -9,6 +9,8 @@
 
 BTA* dic_bt;
 
+
+
 char* Search_Word(char *en_word , GtkWidget *search_entry , GtkWidget *text_view){
 	char* data_str = (char*)malloc(sizeof(char)*MAX_LEN);
 	int rsize;
